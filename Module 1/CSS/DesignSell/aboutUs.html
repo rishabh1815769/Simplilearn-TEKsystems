@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .title {
+        color: grey;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: #555;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about-section">
+      <h1>About Us</h1>
+      <img
+        style="height: 150px"
+        width="1190px"
+        src="./assets/images/Design & Sell-logos_transparent.png"
+        alt=""
+      />
+      <p>
+        We believe in a world where you have total freedom to be you, without
+        judgement. To experiment. To express yourself. To be brave and grab life
+        as the extraordinary adventure it is. So we make sure everyone has an
+        equal chance to discover all the amazing things they’re capable of – no
+        matter who they are, where they’re from or what looks they like to boss.
+        We exist to give you the confidence to be whoever you want to be.
+      </p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Our Vision</h2>
+            <p>
+              Our audience (AKA you) is wonderfully unique, and we do everything
+              we can to help you find your fit. We offer our Design & Sell
+              Brands in more than 30 sizes – and we're committed to providing
+              all sizes at the same price – so you can be confident we’ve got
+              the perfect thing for you.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Our Mission</h2>
+            <p>
+              It’s important for us to promote a healthy body image – we’re not
+              about conforming to any stereotypes – so we work with more than
+              200 models to represent our audience. And we’re not in the
+              business of digitally altering their appearance either… there’s no
+              reshaping or removing stretch marks here. Our models are part of
+              the Design & Sell family and we support them by following a Model
+              Welfare Policy. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Our Goal</h2>
+            <p>
+              You know that satisfying feeling when you stumble across an
+              incredible vintage boutique, or uncover an amazing independent
+              brand, before everyone else? Yeah, we love that too. That’s why we
+              created Design & Sell Marketplace in 2010. The team seeks out the
+              best fashion start-ups, so you can shop one-of-a-kind finds all
+              the time. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
